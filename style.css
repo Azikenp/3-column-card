@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:  hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 18rem;
+    padding-top: 40rem;
+    padding-bottom: 5rem;
+}
+
+.card1{
+    background-color: hsl(31, 77%, 52%);
+    height: 24.5rem;
+    padding: 3rem 2rem 3rem 2rem;
+    border-radius: 10px 10px 0 0;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    margin-top: 1.7rem;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%); 
+    margin-top: 1.5rem;
+}
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    width: 9rem;
+    margin-top: 2rem;
+    height: 2.3rem;
+    border-radius: 40px;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    height: 24.5rem;
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.card3{
+    background-color: hsl(179, 100%, 13%);
+    height: 24.5rem;
+    padding: 3rem 2rem 3rem 2rem;
+    border-radius: 0 0 10px 10px;
+}
+
+
+@media screen and (min-width:800px) {
+    /* body{
+        flex-direction: column;
+    } */
+
+    .container{
+        width: 65rem;
+        height: 27rem;  
+        padding-top: 0;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+     }
+    
+    .card1{
+        display: block;
+        float: left;
+        width: 17rem;
+        height: 26rem;
+        border-radius: 10px 0 0 10px;
+    }
+    .card2{
+        display: block;
+        float: left;
+        width: 17rem;
+        height: 26rem;
+    }
+    .card3{
+        display: block;
+        float: left;
+        width: 17rem;
+        height: 26rem;
+        border-radius: 0 10px 10px 0;
+    }
+
+    button{
+        margin-top: 4rem;
+    }
+}
